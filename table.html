@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+	<title>YT CMS</title>
+
+	<link rel="stylesheet" href="assets/css/entypo.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/datatables.min.css">
+
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+
+
+</head>
+<body class="page-body">
+
+<div class="page-container">
+
+	<div class="sidebar-menu">
+
+		<div class="sidebar-menu-inner">
+
+			<header class="logo-env">
+
+				<div class="logo">
+					<a href="index.html">
+						<img src="assets/images/logo.png" width="120" alt="" />
+					</a>
+				</div>
+
+				<div class="sidebar-collapse">
+					<a href="#" class="sidebar-collapse-icon"><i class="entypo-menu"></i>
+					</a>
+				</div>
+
+
+
+				<div class="sidebar-mobile-menu visible-xs">
+					<a href="#" class="with-animation"><i class="entypo-menu"></i>
+					</a>
+				</div>
+
+			</header>
+
+
+			<ul id="main-menu" class="main-menu">
+				<li class="has-sub">
+					<a href="#">
+						<i class="entypo-gauge"></i>
+						<span class="title">Lorem ipsum</span>
+					</a>
+					<ul>
+						<li>
+							<a href="#">
+								<span class="title">Lorem ipsum</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="title">Lorem ipsum</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="title">Lorem ipsum</span>
+							</a>
+						</li>
+						<li class="has-sub">
+							<a href="#">
+								<span class="title">Lorem ipsum</span>
+							</a>
+							<ul>
+								<li>
+									<a href="#">
+										<span class="title">Lorem ipsum</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="title">Lorem ipsum</span>
+									</a>
+								</li>
+
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<span class="title">Lorem ipsum</span>
+								<span class="badge badge-success badge-roundless">Nuevo</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						<i class="entypo-gauge"></i>
+						<span class="title">Lorem ipsum</span>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+
+	</div>
+
+	<div class="main-content">
+
+		<div class="row">
+
+			<div class="col-md-6 col-sm-8 clearfix">
+
+				<ul class="user-info pull-left pull-none-xsm">
+
+					<li class="profile-info dropdown">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<img src="assets/images/avatar.jpg" alt="" class="img-circle" width="44" />
+							Fabián Zapata
+						</a>
+
+						<ul class="dropdown-menu">
+
+							<li class="caret"></li>
+
+							<li>
+								<a href="#">
+									<i class="entypo-user"></i>
+									Editar Perfil
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<i class="entypo-mail"></i>
+									Inbox
+								</a>
+							</li>
+
+						</ul>
+					</li>
+
+				</ul>
+
+				<ul class="user-info pull-left pull-right-xs pull-none-xsm">
+
+					<li class="notifications dropdown">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<i class="entypo-attention"></i>
+							<span class="badge badge-info">3</span>
+						</a>
+
+						<ul class="dropdown-menu">
+							<li class="top">
+								<p class="small">
+									<a href="#" class="pull-right">Recargar</a>
+									Tienes <strong>3</strong> nuevas notificaciones.
+								</p>
+							</li>
+
+							<li>
+								<ul class="dropdown-menu-list scroller">
+
+									<li class="notification-secondary">
+										<a href="#">
+											<i class="entypo-heart pull-right"></i>
+
+											<span class="line">
+												<strong>Tu Rocket fue aprobado.</strong>
+											</span>
+
+											<span class="line small">
+												hace 2 minutos
+											</span>
+										</a>
+									</li>
+
+									<li class="notification-danger">
+										<a href="#">
+											<i class="entypo-cancel-circled pull-right"></i>
+
+											<span class="line">
+												<strong>Tu Video Lyric fue rechazado</strong>
+											</span>
+
+											<span class="line small">
+												hace 9 horas
+											</span>
+										</a>
+									</li>
+
+									<li class="notification-info">
+										<a href="#">
+											<i class="entypo-info pull-right"></i>
+
+											<span class="line">
+												<strong>Hay una nueva promoción disponible</strong>
+											</span>
+
+											<span class="line small">
+												Ayer a las 10:30pm
+											</span>
+										</a>
+									</li>
+
+									<li class="notification-warning">
+										<a href="#">
+											<i class="entypo-rss pull-right"></i>
+
+											<span class="line">
+												Tu video a subido un 150% de visitas
+											</span>
+
+											<span class="line small">
+												La semana pasada
+											</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="external">
+								<a href="#">Ver todas las notificaciónes</a>
+							</li>
+						</ul>
+
+					</li>
+
+					<li class="notifications dropdown">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<i class="entypo-mail"></i>
+							<span class="badge badge-secondary">1</span>
+						</a>
+
+						<ul class="dropdown-menu">
+							<li>
+
+								<ul class="dropdown-menu-list scroller">
+									<li class="active">
+										<a href="#">
+											<span class="image pull-right">
+												<img src="assets/images/avatar-mail.jpg" width="44" alt="" class="img-circle" />
+											</span>
+
+											<span class="line">
+												<strong>YT ROCKET</strong>
+												- Ayer
+											</span>
+
+											<span class="line desc small">
+												Hola Fabián te damos la bienvenida a nuestro CMS
+											</span>
+										</a>
+									</li>
+
+
+								</ul>
+							</li>
+
+							<li class="external">
+								<a href="#">Ver rodos los mensajes</a>
+							</li>
+						</ul>
+
+					</li>
+
+					<li class="notifications dropdown">
+
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<i class="entypo-list"></i>
+							<span class="badge badge-warning">1</span>
+						</a>
+
+						<ul class="dropdown-menu">
+							<li class="top">
+								<p>Proyectos en desarrollo</p>
+							</li>
+
+							<li>
+								<ul class="dropdown-menu-list scroller">
+									<li>
+										<a href="#">
+											<span class="task">
+												<span class="desc">Video Lyrics</span>
+												<span class="percent">30%</span>
+											</span>
+
+											<span class="progress">
+												<span style="width: 30%;" class="progress-bar progress-bar-success">
+													<span class="sr-only">30% Completo</span>
+												</span>
+											</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="task">
+												<span class="desc">Promoción de Video</span>
+												<span class="percent">83%</span>
+											</span>
+
+											<span class="progress progress-striped">
+												<span style="width: 83%;" class="progress-bar progress-bar-danger">
+													<span class="sr-only">83% Completo</span>
+												</span>
+											</span>
+										</a>
+									</li>
+
+								</ul>
+							</li>
+
+							<li class="external">
+								<a href="#">Ver todos tus proyectos en desarrollo</a>
+							</li>
+						</ul>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+
+			<div class="col-md-6 col-sm-4 clearfix hidden-xs">
+
+				<ul class="list-inline links-list pull-right">
+
+					<li>
+						<a href="#">
+							<i class="fa fa-money" aria-hidden="true"></i> USD <span class="badge badge-success">$200.000</span>
+						</a>
+					</li>
+
+					<li class="sep"></li>
+
+					<li>
+						<a href="#">
+							Salir <i class="entypo-logout right"></i>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<hr />
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="well">
+					<div class="scrollmenu">
+						<ul id="service_menu">
+							<li>
+								<a href="#">
+									<img src="assets/images/service-1.svg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="assets/images/service-2.svg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="assets/images/service-3.svg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="assets/images/service-4.svg">
+								</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h2>Lorem ipsum dolor sit amet</h2>
+
+		<br />
+
+		<div class="row">
+
+			<div class="col-sm-4">
+
+				<a href="javascript:;" onclick="jQuery('#modal-form').modal('show', {backdrop: 'static'});">
+
+					<div class="tile-stats tile-white tile-white-primary">
+
+						<div class="row">
+							<div class="col-sm-4">
+								<figure>
+									<img class="circle-img" src="assets/images/service-1.svg">
+									<i class="fa fa-plus add icon-sub-image" aria-hidden="true"></i>
+								</figure>
+							</div>
+							<div class="col-sm-8">
+								<h3>Nuevo Proyecto</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4">
+
+				<a href="#">
+
+					<div class="tile-stats tile-white tile-white-primary">
+
+						<div class="row">
+							<div class="col-sm-4">
+								<figure>
+									<img class="circle-img" src="assets/images/service-1.svg">
+									<i class="fa fa-folder-open all icon-sub-image" aria-hidden="true"></i>
+								</figure>
+							</div>
+							<div class="col-sm-8">
+								<h3>Todos los Proyectos</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4">
+
+				<a href="#">
+
+					<div class="tile-stats tile-white tile-white-primary">
+
+						<div class="row">
+							<div class="col-sm-4">
+								<figure>
+									<img class="circle-img" src="assets/images/service-1.svg">
+									<i class="fa fa-times danger icon-sub-image" aria-hidden="true"></i>
+								</figure>
+							</div>
+							<div class="col-sm-8">
+								<h3>Proyectos Denegados</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+		<hr />
+		<br />
+
+
+		<script type="text/javascript">
+		jQuery( document ).ready( function( $ ) {
+			var $table1 = jQuery( '#table-1' );
+
+			$table1.DataTable( {
+				"aLengthMenu": [[10, 25, 50, -1], [10, 25, 50, "Todos"]],
+				"bStateSave": true
+			});
+
+			$table1.closest( '.dataTables_wrapper' ).find( 'select' ).select2( {
+				minimumResultsForSearch: -1
+			});
+		} );
+		</script>
+
+		<table class="table table-bordered table-striped datatable" id="table-1">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Nombre</th>
+					<th>Creado</th>
+					<th>Estado</th>
+					<th>Opciones</th>
+				</tr>
+			</thead>
+
+			<tbody>
+
+				<tr>
+					<td>01</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>02</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-warning">Suspendido</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>03</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-warning">Suspendido</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>04</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-danger">Denegado</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>05</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>06</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>07</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>08</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>09</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td>Lorem ipsum dolor sit amet</td>
+					<td><span class="label label-success">Disponible</span></td>
+					<td>
+						<a href="#" class="btn btn-default btn-sm btn-icon icon-left">
+							<i class="entypo-pencil"></i>
+							Editar
+						</a>
+
+						<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+							<i class="entypo-cancel"></i>
+							Eliminar
+						</a>
+					</td>
+				</tr>
+
+
+			</tbody>
+
+		</table>
+
+
+
+
+		<footer class="main">
+
+			&copy; 2017 <strong>YT ROCKET</strong> CMS
+
+		</footer>
+	</div>
+
+
+</div>
+
+<div class="modal fade" id="modal-form">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Crear Nuevo Proyecto</h4>
+				</div>
+
+				<div class="modal-body">
+
+					<div class="row">
+						<div class="col-md-6">
+
+							<div class="form-group">
+								<label for="field-1" class="control-label">Nombre</label>
+
+								<input type="text" class="form-control">
+							</div>
+
+						</div>
+
+						<div class="col-md-6">
+
+							<div class="form-group">
+								<label for="field-2" class="control-label">URL</label>
+
+								<input type="text" class="form-control">
+							</div>
+
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+
+							<div class="form-group">
+								<label for="field-3" class="control-label">Presupuesto</label>
+
+								<select class="form-control">
+								    <option>$100.00 USD</option>
+								    <option>$250.00 USD</option>
+								    <option>$500.00 USD</option>
+								    <option>Contáctanos para un presupuesto superior</option>
+								</select>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+					<button type="button" class="btn btn-info">Crear Proyecto</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="assets/js/TweenMax.min.js"></script>
+	<script src="assets/js/jquery-ui-1.10.3.minimal.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/resizeable.min.js"></script>
+	<script src="assets/js/admin-api.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/datatables.js"></script>
+
+
+</body>
+</html>
