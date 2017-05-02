@@ -79,6 +79,7 @@ select[multiple].input-lg {
 .has-success .form-control-feedback {
   color: #045702;
 }
+#edit_profile {}
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
